@@ -1,6 +1,3 @@
-# Initial analysis of soil metadata
-# first paired ends were joined using this script, this was done to to improve the quailyt of the reads, joining Read1 and Read2, the forward and reverse reads
-
 #!/bin/bash --login
 #PBS -l walltime=01:00:00
 #PBS -l select=1:ncpus=2
@@ -11,13 +8,13 @@ cd $PBS_O_WORKDIR
 
 module load miniconda/python2
 
+# setting temporary directory
+export TMPDIR=~/qiime_tmp
+
 # loading virtualenv
 echo "loading virtualenv"
 # NB qiime1 and not qiimel (number one not letter l) 
 source activate qiime1
-
-# setting temporary directory
-export TMPDIR=~/qiime_tmp
 
 # joining reads
 echo "joining reads"
