@@ -19,23 +19,23 @@ source activate qiime1
 # making boxplots
 echo "compare"
 
-time compare_categories.py --method anosim -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even748/unweighted_unifrac_dm.txt -m map_exp.tsv -c SampleLongitude -o compare_anosimlong_unweighted
+time compare_categories.py --method anosim -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even744/unweighted_unifrac_dm.txt -m map_exp.tsv -c SampleLongitude -o compare_anosimlong_unweighted
 
-time compare_categories.py --method anosim -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even748/unweighted_unifrac_dm.txt -m map_exp.tsv -c SampleLatitude -o compare_anosimlat_unweighted
+time compare_categories.py --method anosim -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even744/unweighted_unifrac_dm.txt -m map_exp.tsv -c SampleLatitude -o compare_anosimlat_unweighted
 
-time compare_categories.py --method anosim -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even748/unweighted_unifrac_dm.txt -m map_exp.tsv -c SampleDepth -o compare_anosimdepth_unweighted
+time compare_categories.py --method anosim -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even744/unweighted_unifrac_dm.txt -m map_exp.tsv -c SampleDepth -o compare_anosimdepth_unweighted
 
-time compare_categories.py --method anosim -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even748/unweighted_unifrac_dm.txt -m map_exp.tsv -c SampleFootFall -o compare_anosimfootfall_unweighted
+time compare_categories.py --method anosim -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even744/unweighted_unifrac_dm.txt -m map_exp.tsv -c SampleFootFall -o compare_anosimfootfall_unweighted
 
-time compare_categories.py --method anosim -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even748/unweighted_unifrac_dm.txt -m map_exp.tsv -c SampleMoisture -o compare_anosimmoisture_unweighted
+time compare_categories.py --method anosim -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even744/unweighted_unifrac_dm.txt -m map_exp.tsv -c SampleMoisture -o compare_anosimmoisture_unweighted
 
-time compare_categories.py --method anosim -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even748/unweighted_unifrac_dm.txt -m map_exp.tsv -c SamplePh -o compare_anosimph_unweighted
+time compare_categories.py --method anosim -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even744/unweighted_unifrac_dm.txt -m map_exp.tsv -c SamplePh -o compare_anosimph_unweighted
 
-time compare_categories.py --method anosim -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even748/unweighted_unifrac_dm.txt -m map_exp.tsv -c SamplePotassium -o compare_anosimK_unweighted
+time compare_categories.py --method anosim -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even744/unweighted_unifrac_dm.txt -m map_exp.tsv -c SamplePotassium -o compare_anosimK_unweighted
 
-time compare_categories.py --method anosim -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even748/unweighted_unifrac_dm.txt -m map_exp.tsv -c SampleNitrogen -o compare_anosimN_unweighted
+time compare_categories.py --method anosim -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even744/unweighted_unifrac_dm.txt -m map_exp.tsv -c SampleNitrogen -o compare_anosimN_unweighted
 
-time compare_categories.py --method anosim -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even748/unweighted_unifrac_dm.txt -m map_exp.tsv -c SamplePhosphorus -o compare_anosimP_unweighted
+time compare_categories.py --method anosim -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even744/unweighted_unifrac_dm.txt -m map_exp.tsv -c SamplePhosphorus -o compare_anosimP_unweighted
 
 source deactivate
 
