@@ -19,23 +19,23 @@ source activate qiime1
 # making boxplots
 echo "compare"
 
-time compare_categories.py --method bioenv -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even748/weighted_unifrac_dm.txt -m map_exp.tsv -c SampleLongitude -o compare_bioenvlong_weighted
+time compare_categories.py --method bioenv -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even744/weighted_unifrac_dm.txt -m map_exp.tsv -c SampleLongitude -o compare_bioenvlong_weighted
 
-time compare_categories.py --method bioenv -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even748/weighted_unifrac_dm.txt -m map_exp.tsv -c SampleLatitude -o compare_bioenvlat_weighted
+time compare_categories.py --method bioenv -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even744/weighted_unifrac_dm.txt -m map_exp.tsv -c SampleLatitude -o compare_bioenvlat_weighted
 
-time compare_categories.py --method bioenv -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even748/weighted_unifrac_dm.txt -m map_exp.tsv -c SampleDepth -o compare_bioenvdepth_weighted
+time compare_categories.py --method bioenv -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even744/weighted_unifrac_dm.txt -m map_exp.tsv -c SampleDepth -o compare_bioenvdepth_weighted
 
-time compare_categories.py --method bioenv -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even748/weighted_unifrac_dm.txt -m map_exp.tsv -c SampleFootFall -o compare_bioenvfootfall_weighted
+time compare_categories.py --method bioenv -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even744/weighted_unifrac_dm.txt -m map_exp.tsv -c SampleFootFall -o compare_bioenvfootfall_weighted
 
-time compare_categories.py --method bioenv -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even748/weighted_unifrac_dm.txt -m map_exp.tsv -c SampleMoisture -o compare_bioenvmoisture_weighted
+time compare_categories.py --method bioenv -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even744/weighted_unifrac_dm.txt -m map_exp.tsv -c SampleMoisture -o compare_bioenvmoisture_weighted
 
-time compare_categories.py --method bioenv -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even748/weighted_unifrac_dm.txt -m map_exp.tsv -c SamplePh -o compare_bioenvph_weighted
+time compare_categories.py --method bioenv -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even744/weighted_unifrac_dm.txt -m map_exp.tsv -c SamplePh -o compare_bioenvph_weighted
 
-time compare_categories.py --method bioenv -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even748/weighted_unifrac_dm.txt -m map_exp.tsv -c SamplePotassium -o compare_bioenvK_weighted
+time compare_categories.py --method bioenv -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even744/weighted_unifrac_dm.txt -m map_exp.tsv -c SamplePotassium -o compare_bioenvK_weighted
 
-time compare_categories.py --method bioenv -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even748/weighted_unifrac_dm.txt -m map_exp.tsv -c SampleNitrogen -o compare_bioenvN_weighted
+time compare_categories.py --method bioenv -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even744/weighted_unifrac_dm.txt -m map_exp.tsv -c SampleNitrogen -o compare_bioenvN_weighted
 
-time compare_categories.py --method bioenv -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even748/weighted_unifrac_dm.txt -m map_exp.tsv -c SamplePhosphorus -o compare_bioenvP_weighted
+time compare_categories.py --method bioenv -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/cda/bdiv_even744/weighted_unifrac_dm.txt -m map_exp.tsv -c SamplePhosphorus -o compare_bioenvP_weighted
 
 source deactivate
 
