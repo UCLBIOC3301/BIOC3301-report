@@ -18,6 +18,6 @@ source activate qiime1
 
 # making boxplots
 echo "2d plots"
-time compute_core_microbiome.py -i /lustre/home/d411/zcbtmjv/3years/final3year/open_otus_silva_final/otu_table_mc2_w_tax_no_pynast_failures.biom  -o core_anal
+time compute_core_microbiome.py -i /lustre/home/d411/zcbtmjv/2018_02_smb/final/open_otus_silva_final/otu_table_mc2_w_tax_no_pynast_failures.biom  -o core_microbiome
 
 source deactivate
