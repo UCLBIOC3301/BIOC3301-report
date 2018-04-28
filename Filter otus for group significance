@@ -1,0 +1,1 @@
+filter_otus_from_otu_table.py -i otu_table_mc2_w_tax_no_pynast_failures.biom -o otu_table_27percent.biom -s 8
