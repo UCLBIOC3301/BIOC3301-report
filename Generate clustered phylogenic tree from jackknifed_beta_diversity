@@ -1,1 +1,0 @@
-make_bootstrapped_tree.py -m jacknifed/unweighted_unifrac/upgma_cmp/master_tree.tre -s jacknifed/unweighted_unifrac/upgma_cmp/jackknife_support.txt -o jackknife_named_nodes.pdf
