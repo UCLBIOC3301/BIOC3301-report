@@ -1,0 +1,38 @@
+#!/bin/bash --login
+#PBS -l walltime=01:00:00
+#PBS -l select=1:ncpus=2
+#PBS -N 2018_2d_plots
+#PBS -A d411-training
+
+cd $PBS_O_WORKDIR
+
+module load miniconda/python2
+
+# setting temporary directory
+export TMPDIR=~/qiime_tmp
+
+# loading virtualenv
+echo "loading virtualenv"
+# NB qiime1 and not qiimel (number one not letter l) 
+source activate qiime1
+
+# making boxplots
+echo "2d plots"
+time make_otu_heatmap.py -i core_microbiome/core_table_50.biom -o less/core_heatmap_50.pdf -m map_less.tsv --dpi 500
+
+time make_otu_heatmap.py -i core_microbiome/core_table_60.biom -o less/core_heatmap_60.pdf -m map_less.tsv --dpi 500
+
+time make_otu_heatmap.py -i core_microbiome/core_table_70.biom -o less/core_heatmap_70.pdf -m map_less.tsv --dpi 500
+
+time make_otu_heatmap.py -i core_microbiome/core_table_80.biom -o less/core_heatmap_80.pdf -m map_less.tsv --dpi 500
+
+time make_otu_heatmap.py -i core_microbiome/core_table_90.biom -o less/core_heatmap_90.pdf -m map_less.tsv --dpi 500
+
+time make_otu_heatmap.py -i core_microbiome/core_table_100.biom -o less/core_heatmap_100.pdf -m map_less.tsv --dpi 500
+
+
+
+source deactivate
+
+# submit picking OTUs parallel job
+# please ensure you do not re-submit this script!
