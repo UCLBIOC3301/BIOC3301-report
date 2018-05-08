@@ -1,0 +1,126 @@
+# The tests of significance were performed using a two-sided Student's two-sample t-test.
+# Alternative hypothesis: Group 1 mean != Group 2 mean
+# Entries marked with "N/A" could not be calculated because at least one of the groups
+# of distances was empty, both groups each contained only a single distance, or
+# the test could not be performed (e.g. no variance in groups with the same mean).
+Group 1	Group 2	t statistic	Parametric p-value	Parametric p-value (Bonferroni-corrected)	Nonparametric p-value	Nonparametric p-value (Bonferroni-corrected)
+All within SampleVegetation	All between SampleVegetation	2.55249781005	0.011062282987	1	N/A	N/A
+All within SampleVegetation	bushes vs. bushes	-1.28652343443	[ 0.20082213]	1	N/A	N/A
+All within SampleVegetation	none vs. none	-1.57795477761	0.116213612331	1	N/A	N/A
+All within SampleVegetation	grass vs. grass	2.03473283188	0.0437256146256	1	N/A	N/A
+All within SampleVegetation	shrubs vs. shrubs	1.5090033587	0.133821433359	1	N/A	N/A
+All within SampleVegetation	bushes vs. none	1.9610798884	0.0518401611244	1	N/A	N/A
+All within SampleVegetation	bushes vs. grass	2.76973387998	0.00642545027785	0.771054033342	N/A	N/A
+All within SampleVegetation	bushes vs. tree	1.21979972644	0.224993941644	1	N/A	N/A
+All within SampleVegetation	bushes vs. shrubs	2.56242541356	0.0115807732188	1	N/A	N/A
+All within SampleVegetation	none vs. grass	-0.0737331697828	0.941290006132	1	N/A	N/A
+All within SampleVegetation	none vs. tree	0.766907281559	0.444548844301	1	N/A	N/A
+All within SampleVegetation	none vs. shrubs	1.47340054573	0.142389652884	1	N/A	N/A
+All within SampleVegetation	grass vs. tree	1.29376616604	0.198170378926	1	N/A	N/A
+All within SampleVegetation	grass vs. shrubs	2.39348465195	0.01788500861	1	N/A	N/A
+All within SampleVegetation	tree vs. shrubs	1.50092537845	0.136001522832	1	N/A	N/A
+All between SampleVegetation	bushes vs. bushes	-1.25096330987	[ 0.21196314]	1	N/A	N/A
+All between SampleVegetation	none vs. none	-4.30171587545	2.17868493114e-05	0.00261442191737	N/A	N/A
+All between SampleVegetation	grass vs. grass	1.04402156619	0.297275947391	1	N/A	N/A
+All between SampleVegetation	shrubs vs. shrubs	0.900075429503	0.368809326775	1	N/A	N/A
+All between SampleVegetation	bushes vs. none	0.945783571321	0.344988528484	1	N/A	N/A
+All between SampleVegetation	bushes vs. grass	2.22185769141	0.027031395208	1	N/A	N/A
+All between SampleVegetation	bushes vs. tree	1.04791443233	0.295553615603	1	N/A	N/A
+All between SampleVegetation	bushes vs. shrubs	2.14947494409	0.0324044291353	1	N/A	N/A
+All between SampleVegetation	none vs. grass	-2.64514047957	0.00849489257111	1	N/A	N/A
+All between SampleVegetation	none vs. tree	-0.118111686915	0.906058205035	1	N/A	N/A
+All between SampleVegetation	none vs. shrubs	-0.245977034515	0.805843375599	1	N/A	N/A
+All between SampleVegetation	grass vs. tree	0.730158237376	0.465872892495	1	N/A	N/A
+All between SampleVegetation	grass vs. shrubs	1.15916213139	0.247235855717	1	N/A	N/A
+All between SampleVegetation	tree vs. shrubs	1.1432443374	0.25387358664	1	N/A	N/A
+bushes vs. bushes	none vs. none	-1.51972376001	[ 0.13267617]	1	N/A	N/A
+bushes vs. bushes	grass vs. grass	-0.94031755497	[ 0.35539188]	1	N/A	N/A
+bushes vs. bushes	shrubs vs. shrubs	-1.12092685235	[ 0.29133646]	1	N/A	N/A
+bushes vs. bushes	bushes vs. none	-1.18459708177	[ 0.24731672]	1	N/A	N/A
+bushes vs. bushes	bushes vs. grass	-0.707118514258	[ 0.4903334]	1	N/A	N/A
+bushes vs. bushes	bushes vs. tree	-4.77754827164	[ 0.131356]	1	N/A	N/A
+bushes vs. bushes	bushes vs. shrubs	-1.51685392723	[ 0.16361256]	1	N/A	N/A
+bushes vs. bushes	none vs. grass	-1.45299113845	[ 0.14926608]	1	N/A	N/A
+bushes vs. bushes	none vs. tree	-1.37310129983	[ 0.19483427]	1	N/A	N/A
+bushes vs. bushes	none vs. shrubs	-1.20378021076	[ 0.23310811]	1	N/A	N/A
+bushes vs. bushes	grass vs. tree	-1.26426830047	[ 0.24660135]	1	N/A	N/A
+bushes vs. bushes	grass vs. shrubs	-1.301911806	[ 0.20058397]	1	N/A	N/A
+bushes vs. bushes	tree vs. shrubs	-2.36098287691	[ 0.0775797]	1	N/A	N/A
+none vs. none	grass vs. grass	3.03561441066	0.00303338135763	0.364005762916	N/A	N/A
+none vs. none	shrubs vs. shrubs	2.20888382566	0.029841551863	1	N/A	N/A
+none vs. none	bushes vs. none	3.00232571582	0.00336949883208	0.40433985985	N/A	N/A
+none vs. none	bushes vs. grass	3.59875393494	0.000517386238053	0.0620863485663	N/A	N/A
+none vs. none	bushes vs. tree	1.54816877908	0.12562971948	1	N/A	N/A
+none vs. none	bushes vs. shrubs	3.29033297269	0.00145196240709	0.174235488851	N/A	N/A
+none vs. none	none vs. grass	1.57263268624	0.117559974113	1	N/A	N/A
+none vs. none	none vs. tree	1.55421060528	0.123683160558	1	N/A	N/A
+none vs. none	none vs. shrubs	2.82520997619	0.00541091571179	0.649309885415	N/A	N/A
+none vs. none	grass vs. tree	1.93006214963	0.0569739794772	1	N/A	N/A
+none vs. none	grass vs. shrubs	3.64251872523	0.000405012626393	0.0486015151672	N/A	N/A
+none vs. none	tree vs. shrubs	2.01809381442	0.0468917088962	1	N/A	N/A
+grass vs. grass	shrubs vs. shrubs	0.210009030995	0.834844680476	1	N/A	N/A
+grass vs. grass	bushes vs. none	-0.060686010406	0.951841915861	1	N/A	N/A
+grass vs. grass	bushes vs. grass	1.10677301001	0.274691006729	1	N/A	N/A
+grass vs. grass	bushes vs. tree	0.680351539084	0.501869259247	1	N/A	N/A
+grass vs. grass	bushes vs. shrubs	1.33656900629	0.189749707588	1	N/A	N/A
+grass vs. grass	none vs. grass	-2.25848005122	0.0255818274179	1	N/A	N/A
+grass vs. grass	none vs. tree	-0.694246560464	0.491642693385	1	N/A	N/A
+grass vs. grass	none vs. shrubs	-1.00215852255	0.318924444516	1	N/A	N/A
+grass vs. grass	grass vs. tree	0.125922940257	0.900534609926	1	N/A	N/A
+grass vs. grass	grass vs. shrubs	-0.0735692564276	0.941575649831	1	N/A	N/A
+grass vs. grass	tree vs. shrubs	0.611610818873	0.545254905194	1	N/A	N/A
+shrubs vs. shrubs	bushes vs. none	-0.299177397064	0.766625885871	1	N/A	N/A
+shrubs vs. shrubs	bushes vs. grass	0.777370847629	0.444535604708	1	N/A	N/A
+shrubs vs. shrubs	bushes vs. tree	0.75247906726	0.469105563252	1	N/A	N/A
+shrubs vs. shrubs	bushes vs. shrubs	1.39114354975	0.181139609453	1	N/A	N/A
+shrubs vs. shrubs	none vs. grass	-1.71245555946	0.0895800417087	1	N/A	N/A
+shrubs vs. shrubs	none vs. tree	-0.879748083511	0.388952447505	1	N/A	N/A
+shrubs vs. shrubs	none vs. shrubs	-0.916874976027	0.362227350425	1	N/A	N/A
+shrubs vs. shrubs	grass vs. tree	-0.0744604513966	0.941567012936	1	N/A	N/A
+shrubs vs. shrubs	grass vs. shrubs	-0.338205766891	0.736682987703	1	N/A	N/A
+shrubs vs. shrubs	tree vs. shrubs	0.584113118966	0.569141929549	1	N/A	N/A
+bushes vs. none	bushes vs. grass	1.31576719154	0.195743804052	1	N/A	N/A
+bushes vs. none	bushes vs. tree	0.86990639522	0.392312119406	1	N/A	N/A
+bushes vs. none	bushes vs. shrubs	1.69776889576	0.0986876990338	1	N/A	N/A
+bushes vs. none	none vs. grass	-2.20336450554	0.0293580777089	1	N/A	N/A
+bushes vs. none	none vs. tree	-0.747679580841	0.459379321697	1	N/A	N/A
+bushes vs. none	none vs. shrubs	-0.961219199818	0.339046210831	1	N/A	N/A
+bushes vs. none	grass vs. tree	0.198895866567	0.843602555243	1	N/A	N/A
+bushes vs. none	grass vs. shrubs	-0.00223051418728	0.998227246743	1	N/A	N/A
+bushes vs. none	tree vs. shrubs	0.79744526001	0.431673775511	1	N/A	N/A
+bushes vs. grass	bushes vs. tree	0.254191486755	0.802585494302	1	N/A	N/A
+bushes vs. grass	bushes vs. shrubs	0.362982788242	0.719795135766	1	N/A	N/A
+bushes vs. grass	none vs. grass	-3.09973332226	0.00242230125997	0.290676151196	N/A	N/A
+bushes vs. grass	none vs. tree	-1.74781165235	0.0918618672956	1	N/A	N/A
+bushes vs. grass	none vs. shrubs	-2.07979621562	0.0407872030593	1	N/A	N/A
+bushes vs. grass	grass vs. tree	-0.809622202515	0.426827870672	1	N/A	N/A
+bushes vs. grass	grass vs. shrubs	-1.511150588	0.136580338622	1	N/A	N/A
+bushes vs. grass	tree vs. shrubs	-0.130670828785	0.897409328008	1	N/A	N/A
+bushes vs. tree	bushes vs. shrubs	-0.227047753486	0.824960909975	1	N/A	N/A
+bushes vs. tree	none vs. grass	-1.38256243674	0.169760776914	1	N/A	N/A
+bushes vs. tree	none vs. tree	-1.17678659483	0.260378851015	1	N/A	N/A
+bushes vs. tree	none vs. shrubs	-1.02698869604	0.308232492238	1	N/A	N/A
+bushes vs. tree	grass vs. tree	-0.879408394846	0.404820141137	1	N/A	N/A
+bushes vs. tree	grass vs. shrubs	-0.955712407707	0.344958186985	1	N/A	N/A
+bushes vs. tree	tree vs. shrubs	-1.06021040996	0.337554108489	1	N/A	N/A
+bushes vs. shrubs	none vs. grass	-2.90251340596	0.00445883626292	0.535060351551	N/A	N/A
+bushes vs. shrubs	none vs. tree	-2.35690972969	0.0282131112975	1	N/A	N/A
+bushes vs. shrubs	none vs. shrubs	-2.1054630329	0.0386915547819	1	N/A	N/A
+bushes vs. shrubs	grass vs. tree	-1.59167889386	0.131018487269	1	N/A	N/A
+bushes vs. shrubs	grass vs. shrubs	-1.86953404565	0.0676552220128	1	N/A	N/A
+bushes vs. shrubs	tree vs. shrubs	-0.916408931617	0.376139679402	1	N/A	N/A
+none vs. grass	none vs. tree	0.886832470619	0.377019962507	1	N/A	N/A
+none vs. grass	none vs. shrubs	1.62512771485	0.106021104685	1	N/A	N/A
+none vs. grass	grass vs. tree	1.47336170847	0.143509400929	1	N/A	N/A
+none vs. grass	grass vs. shrubs	2.67471412778	0.00835721590274	1	N/A	N/A
+none vs. grass	tree vs. shrubs	1.70582302772	0.0909422497541	1	N/A	N/A
+none vs. tree	none vs. shrubs	-0.00250281151313	0.998009605389	1	N/A	N/A
+none vs. tree	grass vs. tree	0.771885846302	0.44967678368	1	N/A	N/A
+none vs. tree	grass vs. shrubs	0.848858118645	0.399927150632	1	N/A	N/A
+none vs. tree	tree vs. shrubs	1.3047861489	0.210421284197	1	N/A	N/A
+none vs. shrubs	grass vs. tree	0.759992118202	0.449775572953	1	N/A	N/A
+none vs. shrubs	grass vs. shrubs	1.1543696004	0.251019997606	1	N/A	N/A
+none vs. shrubs	tree vs. shrubs	1.14133489636	0.257734030786	1	N/A	N/A
+grass vs. tree	grass vs. shrubs	-0.223440441899	0.824182070354	1	N/A	N/A
+grass vs. tree	tree vs. shrubs	0.718722014303	0.487298947899	1	N/A	N/A
+grass vs. shrubs	tree vs. shrubs	0.876539604671	0.3856075138	1	N/A	N/A

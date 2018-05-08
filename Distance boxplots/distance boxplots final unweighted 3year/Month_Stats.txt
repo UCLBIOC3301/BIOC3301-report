@@ -1,0 +1,34 @@
+# The tests of significance were performed using a two-sided Student's two-sample t-test.
+# Alternative hypothesis: Group 1 mean != Group 2 mean
+# Entries marked with "N/A" could not be calculated because at least one of the groups
+# of distances was empty, both groups each contained only a single distance, or
+# the test could not be performed (e.g. no variance in groups with the same mean).
+Group 1	Group 2	t statistic	Parametric p-value	Parametric p-value (Bonferroni-corrected)	Nonparametric p-value	Nonparametric p-value (Bonferroni-corrected)
+All within Month	All between Month	-16.5630256492	2.35860095759e-53	6.60408268126e-52	N/A	N/A
+All within Month	1 vs. 1	-3.01435172555	0.0027157516722	0.0760410468215	N/A	N/A
+All within Month	10 vs. 10	0.885141870498	0.376332218028	1	N/A	N/A
+All within Month	2 vs. 2	-2.83786930418	0.00474968485319	0.132991175889	N/A	N/A
+All within Month	1 vs. 10	-14.1961013932	3.50899023864e-40	9.8251726682e-39	N/A	N/A
+All within Month	1 vs. 2	-6.59265961526	1.16340188145e-10	3.25752526806e-09	N/A	N/A
+All within Month	10 vs. 2	-11.8504282741	4.95107716778e-29	1.38630160698e-27	N/A	N/A
+All between Month	1 vs. 1	2.78029966739	0.00568356466211	0.159139810539	N/A	N/A
+All between Month	10 vs. 10	17.6311368734	0.0	0.0	N/A	N/A
+All between Month	2 vs. 2	-0.00207804733416	0.998343038413	1	N/A	N/A
+All between Month	1 vs. 10	0.549484974298	0.582873774888	1	N/A	N/A
+All between Month	1 vs. 2	-0.357031695118	0.721251766389	1	N/A	N/A
+All between Month	10 vs. 2	-0.657066169663	0.511444366332	1	N/A	N/A
+1 vs. 1	10 vs. 10	3.50478942665	0.000504711603984	0.0141319249116	N/A	N/A
+1 vs. 1	2 vs. 2	-0.891438757533	0.379347983434	1	N/A	N/A
+1 vs. 1	1 vs. 10	-2.64540187674	0.00866025272441	0.242487076283	N/A	N/A
+1 vs. 1	1 vs. 2	-1.77160237665	0.081713832525	1	N/A	N/A
+1 vs. 1	10 vs. 2	-2.74661821439	0.00680161912165	0.190445335406	N/A	N/A
+10 vs. 10	2 vs. 2	-3.18045572607	0.00158217004	0.0443007611199	N/A	N/A
+10 vs. 10	1 vs. 10	-15.4098170372	9.22048600016e-46	2.58173608004e-44	N/A	N/A
+10 vs. 10	1 vs. 2	-7.28547734244	1.51346038776e-12	4.23768908572e-11	N/A	N/A
+10 vs. 10	10 vs. 2	-12.9456949156	2.00790816746e-33	5.62214286888e-32	N/A	N/A
+2 vs. 2	1 vs. 10	0.11581504913	0.90789760908	1	N/A	N/A
+2 vs. 2	1 vs. 2	-0.103450976521	0.918179222508	1	N/A	N/A
+2 vs. 2	10 vs. 2	-0.155287429519	0.876855630092	1	N/A	N/A
+1 vs. 10	1 vs. 2	-0.602393488048	0.547433238973	1	N/A	N/A
+1 vs. 10	10 vs. 2	-1.05325783882	0.292957808428	1	N/A	N/A
+1 vs. 2	10 vs. 2	-0.00888853673416	0.992920201029	1	N/A	N/A

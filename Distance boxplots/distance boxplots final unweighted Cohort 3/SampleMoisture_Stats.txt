@@ -1,0 +1,34 @@
+# The tests of significance were performed using a two-sided Student's two-sample t-test.
+# Alternative hypothesis: Group 1 mean != Group 2 mean
+# Entries marked with "N/A" could not be calculated because at least one of the groups
+# of distances was empty, both groups each contained only a single distance, or
+# the test could not be performed (e.g. no variance in groups with the same mean).
+Group 1	Group 2	t statistic	Parametric p-value	Parametric p-value (Bonferroni-corrected)	Nonparametric p-value	Nonparametric p-value (Bonferroni-corrected)
+All within SampleMoisture	All between SampleMoisture	-1.30684056132	0.192010245513	1	N/A	N/A
+All within SampleMoisture	1 vs. 1	-2.36831209692	0.019056039501	0.533569106028	N/A	N/A
+All within SampleMoisture	0 vs. 0	3.00510072283	0.00292610185465	0.0819308519302	N/A	N/A
+All within SampleMoisture	3 vs. 3	-2.63414493644	0.00902323147449	0.252650481286	N/A	N/A
+All within SampleMoisture	1 vs. 0	-1.46089014038	0.145614812465	1	N/A	N/A
+All within SampleMoisture	1 vs. 3	-3.08150131754	0.00235906234911	0.0660537457751	N/A	N/A
+All within SampleMoisture	0 vs. 3	-0.1278929317	0.898312560709	1	N/A	N/A
+All between SampleMoisture	1 vs. 1	-1.94518613063	0.0528873032409	1	N/A	N/A
+All between SampleMoisture	0 vs. 0	4.01072861126	7.46834709855e-05	0.00209113718759	N/A	N/A
+All between SampleMoisture	3 vs. 3	-1.74375918582	0.0821923780396	1	N/A	N/A
+All between SampleMoisture	1 vs. 0	-0.625061939339	0.532428791605	1	N/A	N/A
+All between SampleMoisture	1 vs. 3	-2.28779945119	0.0228947889555	0.641054090755	N/A	N/A
+All between SampleMoisture	0 vs. 3	1.16520405769	0.244610573739	1	N/A	N/A
+1 vs. 1	0 vs. 0	4.90199241598	4.06129711528e-06	0.000113716319228	N/A	N/A
+1 vs. 1	3 vs. 3	1.3401655763	0.184718760202	1	N/A	N/A
+1 vs. 1	1 vs. 0	1.86415558692	0.0691361222832	1	N/A	N/A
+1 vs. 1	1 vs. 3	1.04962420608	0.300698722657	1	N/A	N/A
+1 vs. 1	0 vs. 3	2.21642728874	0.0279973144333	0.783924804132	N/A	N/A
+0 vs. 0	3 vs. 3	-5.12867669114	8.60040069282e-07	2.40811219399e-05	N/A	N/A
+0 vs. 0	1 vs. 0	-4.2891467621	3.45474722344e-05	0.000967329222563	N/A	N/A
+0 vs. 0	1 vs. 3	-5.75517797301	6.30699202557e-08	1.76595776716e-06	N/A	N/A
+0 vs. 0	0 vs. 3	-2.99656218539	0.00299752591265	0.0839307255542	N/A	N/A
+3 vs. 3	1 vs. 0	0.699890742825	0.485528730087	1	N/A	N/A
+3 vs. 3	1 vs. 3	-0.718320470194	0.474234670456	1	N/A	N/A
+3 vs. 3	0 vs. 3	2.47316524688	0.0141099287579	0.39507800522	N/A	N/A
+1 vs. 0	1 vs. 3	-1.33599584076	0.185537406974	1	N/A	N/A
+1 vs. 0	0 vs. 3	1.32231203868	0.187516449509	1	N/A	N/A
+1 vs. 3	0 vs. 3	2.8974507821	0.00417707726884	0.116958163528	N/A	N/A

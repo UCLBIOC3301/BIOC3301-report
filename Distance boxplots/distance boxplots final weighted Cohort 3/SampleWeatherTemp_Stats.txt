@@ -1,0 +1,16 @@
+# The tests of significance were performed using a two-sided Student's two-sample t-test.
+# Alternative hypothesis: Group 1 mean != Group 2 mean
+# Entries marked with "N/A" could not be calculated because at least one of the groups
+# of distances was empty, both groups each contained only a single distance, or
+# the test could not be performed (e.g. no variance in groups with the same mean).
+Group 1	Group 2	t statistic	Parametric p-value	Parametric p-value (Bonferroni-corrected)	Nonparametric p-value	Nonparametric p-value (Bonferroni-corrected)
+All within SampleWeatherTemp	All between SampleWeatherTemp	2.45206674375	0.0146261148026	0.146261148026	N/A	N/A
+All within SampleWeatherTemp	15 vs. 15	2.42237083446	0.016103684248	0.16103684248	N/A	N/A
+All within SampleWeatherTemp	14 vs. 14	-0.77295698002	0.439988917079	1	N/A	N/A
+All within SampleWeatherTemp	15 vs. 14	2.45206674375	0.0146261148026	0.146261148026	N/A	N/A
+All between SampleWeatherTemp	15 vs. 15	1.17117292907	0.242831668425	1	N/A	N/A
+All between SampleWeatherTemp	14 vs. 14	-3.06389493787	0.00234576953755	0.0234576953755	N/A	N/A
+All between SampleWeatherTemp	15 vs. 14	0.0	1.0	1	N/A	N/A
+15 vs. 15	14 vs. 14	-2.73103927295	0.00681619893219	0.0681619893219	N/A	N/A
+15 vs. 15	15 vs. 14	-1.17117292907	0.242831668425	1	N/A	N/A
+14 vs. 14	15 vs. 14	3.06389493787	0.00234576953755	0.0234576953755	N/A	N/A

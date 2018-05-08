@@ -1,0 +1,16 @@
+# The tests of significance were performed using a two-sided Student's two-sample t-test.
+# Alternative hypothesis: Group 1 mean != Group 2 mean
+# Entries marked with "N/A" could not be calculated because at least one of the groups
+# of distances was empty, both groups each contained only a single distance, or
+# the test could not be performed (e.g. no variance in groups with the same mean).
+Group 1	Group 2	t statistic	Parametric p-value	Parametric p-value (Bonferroni-corrected)	Nonparametric p-value	Nonparametric p-value (Bonferroni-corrected)
+All within Year	All between Year	-5.86385964547	6.55932287035e-09	6.55932287035e-08	N/A	N/A
+All within Year	2017 vs. 2017	-0.0792916325554	0.936812536142	1	N/A	N/A
+All within Year	2016 vs. 2016	1.17885261883	0.238871624962	1	N/A	N/A
+All within Year	2017 vs. 2016	-5.86385964547	6.55932287035e-09	6.55932287035e-08	N/A	N/A
+All between Year	2017 vs. 2017	5.79666960908	9.67962887621e-09	9.67962887621e-08	N/A	N/A
+All between Year	2016 vs. 2016	3.13102361449	0.00208961205053	0.0208961205053	N/A	N/A
+All between Year	2017 vs. 2016	0.0	1.0	1	N/A	N/A
+2017 vs. 2017	2016 vs. 2016	1.18610544348	0.236001106647	1	N/A	N/A
+2017 vs. 2017	2017 vs. 2016	-5.79666960908	9.67962882129e-09	9.67962882129e-08	N/A	N/A
+2016 vs. 2016	2017 vs. 2016	-3.13102361449	0.00208961205053	0.0208961205053	N/A	N/A

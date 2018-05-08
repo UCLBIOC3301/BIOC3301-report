@@ -1,0 +1,21 @@
+# The tests of significance were performed using a two-sided Student's two-sample t-test.
+# Alternative hypothesis: Group 1 mean != Group 2 mean
+# Entries marked with "N/A" could not be calculated because at least one of the groups
+# of distances was empty, both groups each contained only a single distance, or
+# the test could not be performed (e.g. no variance in groups with the same mean).
+Group 1	Group 2	t statistic	Parametric p-value	Parametric p-value (Bonferroni-corrected)	Nonparametric p-value	Nonparametric p-value (Bonferroni-corrected)
+All within SampleFootFall	All between SampleFootFall	3.61596381008	0.000337084015211	0.00505626022816	N/A	N/A
+All within SampleFootFall	0 vs. 0	0.0	1.0	1	N/A	N/A
+All within SampleFootFall	1 vs. 0	1.7040496385	0.0891979883642	1	N/A	N/A
+All within SampleFootFall	1 vs. 3	-1.11519217301	[ 0.2655332]	1	N/A	N/A
+All within SampleFootFall	0 vs. 3	3.39449788752	0.000760786443657	0.0114117966548	N/A	N/A
+All between SampleFootFall	0 vs. 0	-3.61596381008	0.000337084015211	0.00505626022816	N/A	N/A
+All between SampleFootFall	1 vs. 0	-0.867112362036	0.388473886662	1	N/A	N/A
+All between SampleFootFall	1 vs. 3	-0.693851456914	[ 0.49074951]	1	N/A	N/A
+All between SampleFootFall	0 vs. 3	0.779616418176	0.437917046617	1	N/A	N/A
+0 vs. 0	1 vs. 0	1.7040496385	0.0891979883642	1	N/A	N/A
+0 vs. 0	1 vs. 3	-1.11519217301	[ 0.2655332]	1	N/A	N/A
+0 vs. 0	0 vs. 3	3.39449788752	0.000760786443657	0.0114117966548	N/A	N/A
+1 vs. 0	1 vs. 3	-0.858094455349	[ 0.39868188]	1	N/A	N/A
+1 vs. 0	0 vs. 3	1.42751044845	0.159410861739	1	N/A	N/A
+1 vs. 3	0 vs. 3	-0.536784682216	[ 0.5959803]	1	N/A	N/A
