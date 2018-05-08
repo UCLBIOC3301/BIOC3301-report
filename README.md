@@ -17,7 +17,9 @@ The maps folder contains a number of the different mapping files and their evolu
 
 The OTU Network/3 year level 2 contains an example of the output file from the otu_network.pbs code in the Further Analysis folder. This data can be used in conjunction with the progarmme Cytoscape to make figures such as real_edge_table.txt.pdf in the Figures folder.
 
-The Sourcetracker Code and Sourcetracker Python folders are used to do further analysis between the samples collected and the earth microbiome project (EMP). The Sourcetracker Code is run on Cirrus (run batch_sourcetrack.pbs first, then run_sourcetrack.pbs), whereas the Sourcetracker python code was run in Jupyter Notebook for the creation of figures using the output from the Sourcetracker Code files. https://github.com/nameisBaron-MichaelBaron/BIOC3301 was helpful in assembling the code which was adapted for the code in these folders.
+The Sourcetracker Code and Sourcetracker Python folders are used to do further analysis between the samples collected and the earth microbiome project (EMP). The Sourcetracker Code is run on Cirrus (run batch_sourcetrack.pbs first, then run_sourcetrack.pbs), whereas the Sourcetracker python code was run in Jupyter Notebook for the creation of figures using the output from the Sourcetracker Code files. https://github.com/nameisBaron-MichaelBaron/BIOC3301 was helpful as a starting point for the code which was adapted for this analysis. As well as the heatmaps, pie charts showing the make-up of the different environments for each of our samples is also shown. 
+
+As the analysis code for the three Cohort year data is very similar to the Cohort 3 data analysis, only the basic pipeline is shown for the three cohort data as it is different. Reads were not joined for the three cohort year data and all the forward reads with the different maps for all three years had to be joined. This folder is in the 3 year branch of this repository.
 
 ______________________________________________________________________________________________________________________________
 
