@@ -1,0 +1,2 @@
+vars	size	correlation
+Year	1	0.252180114396

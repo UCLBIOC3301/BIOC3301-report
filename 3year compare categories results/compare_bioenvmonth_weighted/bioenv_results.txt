@@ -1,0 +1,2 @@
+vars	size	correlation
+Month	1	0.305032344247

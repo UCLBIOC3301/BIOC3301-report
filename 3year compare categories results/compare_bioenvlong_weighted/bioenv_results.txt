@@ -1,0 +1,2 @@
+vars	size	correlation
+SampleLongitude	1	0.0954352747555
