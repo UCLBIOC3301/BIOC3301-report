@@ -28,6 +28,6 @@ As the analysis code for the three Cohort year data is very similar to the Cohor
 
 ______________________________________________________________________________________________________________________________
 
-Abstract of report made from the code in this Repository:
+# Report Abstract
 
 Only two years ago it was estimated that over 99.9% of microbial species remained unclassified. Yet recent developments have revolutionized microbiology. Advances in culture-independent genomic analyses and next-generation sequencing provide new avenues for identification and analysis. To effectively harness these advancements and enable future research, cataloguing findings is critical.  Leading this is the Earth Microbiome Project (EMP), an endeavour to characterise and catalogue environments by microbial composition. Following their aims, using their database, and these new techniques, we take localised samples from a London park for sequencing, classification and comparison of the soil microbiome. Whilst our results are limited in one year, across a three-year period we find correlations in both diversity and operational taxonomic unit makeup. Moreover, based on comparison with the wider database of EMP soil samples, we find correlations with similar environments, suggesting that this analysis may be additive to large-scale studies, enabling future developments. 
