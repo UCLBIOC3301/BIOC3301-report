@@ -1,0 +1,2 @@
+vars	size	correlation
+SampleMoisture	1	-0.00883741722284

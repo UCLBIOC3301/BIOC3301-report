@@ -1,0 +1,13 @@
+
+Call:
+adonis(formula = as.dist(qiime.data$distmat) ~ qiime.data$map[[opts$category]],      permutations = opts$num_permutations) 
+
+Permutation: free
+Number of permutations: 999
+
+Terms added sequentially (first to last)
+
+                                Df SumsOfSqs MeanSqs F.Model     R2 Pr(>F)
+qiime.data$map[[opts$category]]  1    0.1320 0.13204 0.98487 0.0365  0.421
+Residuals                       26    3.4859 0.13407         0.9635       
+Total                           27    3.6179                 1.0000       

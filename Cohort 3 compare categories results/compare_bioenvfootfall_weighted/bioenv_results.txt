@@ -1,0 +1,2 @@
+vars	size	correlation
+SampleFootFall	1	-0.137244193085

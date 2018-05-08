@@ -1,0 +1,2 @@
+vars	size	correlation
+SampleDepth	1	0.0624593521675

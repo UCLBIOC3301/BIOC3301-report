@@ -1,0 +1,2 @@
+vars	size	correlation
+SamplePhosphorus	1	0.127466185096

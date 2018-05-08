@@ -1,0 +1,2 @@
+vars	size	correlation
+SamplePh	1	0.00386772399446

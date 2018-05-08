@@ -1,0 +1,2 @@
+vars	size	correlation
+SampleNitrogen	1	0.0797094055392

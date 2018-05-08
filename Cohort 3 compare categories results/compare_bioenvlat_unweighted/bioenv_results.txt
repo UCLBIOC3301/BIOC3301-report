@@ -1,0 +1,2 @@
+vars	size	correlation
+SampleLatitude	1	0.114385858852
